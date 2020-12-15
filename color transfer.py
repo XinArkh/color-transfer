@@ -6,10 +6,10 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 
-设置源图片和目标图片路径
-Set the source and target path.
+# 设置源图片和目标图片路径
+# Set the source and target path.
 # In[2]:
 
 
@@ -120,7 +120,7 @@ output_rgb = lab2rgb(output_lab)
 plt.axis('off')
 plt.imshow(source_rgb)
 plt.title('Source')
-
+plt.show()
 
 # In[9]:
 
@@ -128,7 +128,7 @@ plt.title('Source')
 plt.axis('off')
 plt.imshow(target_rgb)
 plt.title('Target')
-
+plt.show()
 
 # In[10]:
 
@@ -136,7 +136,7 @@ plt.title('Target')
 plt.axis('off')
 plt.imshow(output_rgb)
 plt.title('Output')
-
+plt.show()
 
 # In[11]:
 
