@@ -12,9 +12,18 @@ Some examples are shown as follows.
 
 **Targets** and **Outputs**
 
-![](./images/doc/transfers.png)
+<p align="center">
+    <img src="./images/doc/transfers.png">
+</p>
 
+# Requirements
 
+- NumPy
+- Matplotlib
+
+# Note
+
+In some implementations, `cv2.cvtColor()` and `cv2.COLOR_BGR2LAB` are used to simplify the color space conversion. This does works, but be aware that `OpenCV` has additionally done a rescale here to remap the channel values to be in [0, 255], instead of keeping the original ℓαβ channel values.
 
 # References
 
