@@ -11,6 +11,7 @@ Some examples are shown as follows.
 <p align="center">
     <img src="./images/doc/s6.bmp" width="640">
 </p>
+
 **Targets** and **Outputs**
 
 <p align="center">
