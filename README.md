@@ -15,7 +15,7 @@ Some examples are shown as follows.
 **Targets** and **Outputs**
 
 <p align="center">
-    <img src="./images/doc/transfers.png">
+    <img src="./images/doc/transfers.png" width="640">
 </p>
 
 # Requirements
