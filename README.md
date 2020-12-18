@@ -8,8 +8,9 @@ Some examples are shown as follows.
 
 **Source**
 
-![](./images/doc/s6.bmp)
-
+<p align="center">
+    <img src="./images/doc/s6.bmp" width="640">
+</p>
 **Targets** and **Outputs**
 
 <p align="center">
@@ -23,7 +24,7 @@ Some examples are shown as follows.
 
 # Note
 
-In some implementations, `cv2.cvtColor()` and `cv2.COLOR_BGR2LAB` are used to simplify the color space conversion. This does works, but be aware that `OpenCV` has additionally done a rescale here to remap the channel values to be in [0, 255], instead of keeping the original ℓαβ channel values.
+In some implementations, `cv2.cvtColor()` and `cv2.COLOR_BGR2LAB` are used to simplify the color space conversion. This does work, but be aware that `OpenCV` has additionally done a rescale here to remap the channel values to be in [0, 255], instead of keeping the original ℓαβ channel values.
 
 # References
 
